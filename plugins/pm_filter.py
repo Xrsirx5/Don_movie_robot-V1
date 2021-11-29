@@ -445,6 +445,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            ],[
+            InlineKeyboardButton('🙆‍♂️ dev 🙆‍♂️', url='https://t.me/A6rzuxpt69drdr6t9d5')
+            ],[
+            InlineKeyboardButton('⚡share me ⚡', url='https://t.me/share/url?url=https://t.me/Don_movie_robot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
